@@ -74,10 +74,10 @@ function! s:delpair()
 endf
 
 function! s:alignedcr()
-	let l:lst = ['(',"{",'[']
+	let l:lst = [')',"}",']']
 	let l:col = col('.') - 1
 	let l:line = getline('.')
-	let l:chr = l:line[l:col-1]
+	let l:chr = l:line[l:col]
 	if index(l:lst, l:chr) > -1
 		return "\<cr>\<esc>\<s-o>"
 	else
