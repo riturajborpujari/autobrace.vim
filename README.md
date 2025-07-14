@@ -3,8 +3,12 @@ A simple Vim9.1 plugin that can simplify working with matching brackets and
 quotes
 
 ## Usage
-Just download the `autobrace.vim` file and copy it to your `plugin` directory
-under your vim config directory (eg., `$HOME/.config/vim/plugin/`)
+Just clone this repository into your Vim Package directory.
+
+```sh
+cd $HOME/.config/vim/pack/vim/start
+git clone https://github.com/riturajborpujari/autobrace.vim
+```
 
 Restart Vim to see effect
 
